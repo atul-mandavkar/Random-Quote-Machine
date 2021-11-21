@@ -1,0 +1,8 @@
+.buttonBox{
+  width: 90%;
+  height: 20%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
