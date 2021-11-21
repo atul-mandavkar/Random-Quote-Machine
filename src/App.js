@@ -1,19 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./components/Wrapper"
+import Wrapper from "./components/Wrapper";
 
-function App() {
+const App = () =>{
   return (
-    <div className="App">
-      <div id="box1">
-        <div id="quotesP"></div>
-        <div id="authorP">aytu</div>
-        <div id="buttons">
-          <button id="facebookB">Facebook</button>
-          <button id="nextB">Next</button>
-        </div>
-      </div>
-    </div>
-  );
-}
+    <Wrapper></Wrapper>
+  )
+};
 
 export default App;
