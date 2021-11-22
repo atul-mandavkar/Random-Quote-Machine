@@ -1,8 +1,8 @@
 import "./NextButton.css";
 
 
-const NextButton = () => {
-  return <button className="nextButton">Next</button>
+const NextButton = ({onClick}) => {
+  return <button className="nextButton" onClick={onClick}>next</button>
 };
 
 
