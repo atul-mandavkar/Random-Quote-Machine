@@ -27,3 +27,12 @@
 .texts{
   text-align: center;
 }
+
+@media screen and (max-width:600px) {
+  .message{
+    font-size: 150%;
+  }
+  .li, .l2{
+    font-size: 200%;
+  }
+}
